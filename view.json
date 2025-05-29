@@ -1,0 +1,3174 @@
+{
+  "deploymentId": "b816229-15326458636-8-1",
+  "projectId": "06103038-5dd2-4007-9b66-de4e44a05eb5",
+  "commitHash": "b8162297c98d05fd0c399a071024fb547abf6d6e",
+  "author": "JustUzair",
+  "status": "success",
+  "branch": "main",
+  "actionUrl": "https://github.com/JustUzair/bb-ci-cd-v4-core/actions/runs/15326458636",
+  "deployment": [
+    {
+      "chainId": 1,
+      "rpcUrl": "https://rpc.test.buildbear.io/bb-ci-cd-v4-core-b816229-b3454e",
+      "sandboxId": "bb-ci-cd-v4-core-b816229-b3454e",
+      "transactions": [
+        {
+          "contractName": "PoolManager",
+          "hash": "0x6a4b043fac72ed0b6155bf820d45e84c3b0ab5bbf7194d870f23e44c7f71990a",
+          "contractAddress": "0x579374be28361b2a7e82c01aaeae61783f69ae0a"
+        },
+        {
+          "contractName": "PoolSwapTest",
+          "hash": "0xc090c1844c8ff2b2f917bc8a0dc358a02b4eaede38b1eb4882dbdc9743a0d2c4",
+          "contractAddress": "0xebee42f74e20320fe9a5a8d7f1541b93ed6b02d4"
+        },
+        {
+          "contractName": "SwapRouterNoChecks",
+          "hash": "0x2f153d063756d8972648daa5a219f653367fc3cab93b10b51273e5bbeda99c9d",
+          "contractAddress": "0x028074235054295f34452f7e71d024512ed4869d"
+        },
+        {
+          "contractName": "PoolModifyLiquidityTest",
+          "hash": "0x499e36ac1483fed28a1fa1d036610f2d6275be2d7182348c7b0620bbc85280a9",
+          "contractAddress": "0x53e019e687a5a5b2266ef7412fb735ca45f597cb"
+        },
+        {
+          "contractName": "PoolModifyLiquidityTestNoChecks",
+          "hash": "0xcf41da792bce002faa69407a345d4e164cb8d9de0162e5a6502357c49ad553a1",
+          "contractAddress": "0x0bc27dd388fe4d03a915fefe568dc7450ba00a9d"
+        },
+        {
+          "contractName": "PoolDonateTest",
+          "hash": "0xe77f0a1be7aede888b9a86d3eced281913a2b46e7b41849807fab34b5f1d91d3",
+          "contractAddress": "0xf5f178aa58998152de175608d8b7d541ffc8d201"
+        },
+        {
+          "contractName": "PoolTakeTest",
+          "hash": "0x99499ef0e62747db74d354b3509d0ed402f51648137e0ec7f2874014a0f7e114",
+          "contractAddress": "0x2768e40113cdb3a6c160cb81483921653ee326ec"
+        },
+        {
+          "contractName": "PoolClaimsTest",
+          "hash": "0x64a3943f61f985f9ae374f65866db0c22d41e944fcff7e30c6ea398299f1aace",
+          "contractAddress": "0x9de38e5f294ce4f51b24271b1968a3a266835c31"
+        },
+        {
+          "contractName": "PoolNestedActionsTest",
+          "hash": "0x24df45f9f3f149b04d4838b4997467353097e02a8b62a6a8cc5363176c5c7980",
+          "contractAddress": "0x8ad37b4ec97b3794f68ae7694bd38c74208439b9"
+        },
+        {
+          "contractName": "ActionsRouter",
+          "hash": "0x4ff9748cb2dec7665f8b0dbcb18156b77d42d14a95f64b5b0cbd80ac5e311fd7",
+          "contractAddress": "0x84697bd6dec0feb734e4ff4e5563e0ba0dbc2ca9"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2025-05-29T14:49:03.991Z",
+  "testCasesStatus": { "error": 440, "success": 0, "skipped": 0, "failed": 0 },
+  "testCases": [
+    {
+      "testName": "test_setProtocolFeeController_revertsWithNotAuthorized",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_setprotocolfeecontroller_revertswithnotauthorized-28f3909c-115e-4f0b",
+      "status": "error"
+    },
+    {
+      "testName": "test_callHook_revertsWithInternalErrorFailedHookCall",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_callhook_revertswithinternalerrorfailedhookcall-1fce46a7-5191-4f8c",
+      "status": "error"
+    },
+    {
+      "testName": "test_clear_zeroDelta_inputZero_isUnchanged",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_clear_zerodelta_inputzero_isunchanged-ccbcbed3-46cc-47f7",
+      "status": "error"
+    },
+    {
+      "testName": "test_setProtocolFee_revertsWithInvalidFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_setprotocolfee_revertswithinvalidfee-608d3a33-9c95-414a",
+      "status": "error"
+    },
+    {
+      "testName": "test_MAX_TICK_equalsNegativeMIN_TICK",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_max_tick_equalsnegativemin_tick-c4172b5d-1143-448b",
+      "status": "error"
+    },
+    {
+      "testName": "test_removeLiquidity_withHooks_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_removeliquidity_withhooks_gas-0fd5769b-1916-4299",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_update_doesNotSetAnyGrowthFieldsForTicksGtCurrentTick",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_update_doesnotsetanygrowthfieldsforticksgtcurrenttick-d0ea0bcf-2c02-402a",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_clear_deletesAllTheDataInTheTick",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_clear_deletesallthedatainthetick-d1f7f995-4714-4a42",
+      "status": "error"
+    },
+    {
+      "testName": "test_collectProtocolFees_nativeToken_accumulateFees_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_collectprotocolfees_nativetoken_accumulatefees_gas-841d2ef4-1c0b-48ad",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromOutput_outputAmountOf0_1Currency1",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefromoutput_outputamountof0_1currency1-8aa29d7f-872b-46b8",
+      "status": "error"
+    },
+    {
+      "testName": "test_afterInitialize_invalidReturn",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_afterinitialize_invalidreturn-a3612cf1-c60c-4f52",
+      "status": "error"
+    },
+    {
+      "testName": "test_delegateCallFromExternalToPrivateMethodWithModifier_revertsWithDelegateCallNotAllowed",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_delegatecallfromexternaltoprivatemethodwithmodifier_revertswithdelegatecallnotallowed-a79ca7c5-0f8f-433a",
+      "status": "error"
+    },
+    {
+      "testName": "test_updateDynamicLPFee_beforeSwap_succeeds_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_updatedynamiclpfee_beforeswap_succeeds_gas-c9c5f146-f522-4495",
+      "status": "error"
+    },
+    {
+      "testName": "test_addLiquidity_failsWithIncorrectSelectors",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_addliquidity_failswithincorrectselectors-6bab5b5e-d897-4522",
+      "status": "error"
+    },
+    {
+      "testName": "test_getOneForZeroFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getoneforzerofee-66d23599-389f-4f1d",
+      "status": "error"
+    },
+    {
+      "testName": "test_flipTick_revertsOnlyItself",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_fliptick_revertsonlyitself-3baf7b0d-4fe8-4320",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteTrue_willNotExceedTheWordBoundary",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltetrue_willnotexceedthewordboundary-3df0f738-b072-4344",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_update_doesNotFlipFromNonzeroToLesserZero",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_update_doesnotflipfromnonzerotolesserzero-2e04e5cb-5792-431b",
+      "status": "error"
+    },
+    {
+      "testName": "test_getFeeGrowthInside",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getfeegrowthinside-a5a9db5b-c9ad-4a9b",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteFalse_justBelowBoundary_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltefalse_justbelowboundary_gas-2252e83c-840a-4d84",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_getFeeGrowthInside_returns0ForTwoUninitializedTicksIfTickIsAbove",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_getfeegrowthinside_returns0fortwouninitializedticksiftickisabove-b87f9d42-4906-43b1",
+      "status": "error"
+    },
+    {
+      "testName": "test_add",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_add-47616797-621d-4e6a",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_withNative_succeeds",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_withnative_succeeds-ab33d6d2-3fa5-4543",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteTrue_boundaryIsInitialized",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltetrue_boundaryisinitialized-d5a0ad23-77df-409d",
+      "status": "error"
+    },
+    {
+      "testName": "test_flipTick_flippingATickThatResultsInDeletingAWord_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_fliptick_flippingatickthatresultsindeletingaword_gas-8b4cd5c4-f1b4-41da",
+      "status": "error"
+    },
+    {
+      "testName": "test_addDelta_sub_int128min_throwsForReferenceOnly",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_adddelta_sub_int128min_throwsforreferenceonly-440c5cf4-8220-4f99",
+      "status": "error"
+    },
+    {
+      "testName": "test_getAmount1Delta_returns0IfLiquidityIs0",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getamount1delta_returns0ifliquidityis0-6ebb80ce-633e-4539",
+      "status": "error"
+    },
+    {
+      "testName": "test_nestedAddLiquidity",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nestedaddliquidity-64497ef8-e72a-40d4",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteTrue_returnsTickDirectlyToTheLeftOfInputTickIfNotInitialized",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltetrue_returnstickdirectlytotheleftofinputtickifnotinitialized-09268a57-a130-4052",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteTrue_wordBoundaryLess1nextInitializedTickInNextWord",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltetrue_wordboundaryless1nextinitializedtickinnextword-5d405d89-ed6c-4bad",
+      "status": "error"
+    },
+    {
+      "testName": "test_beforeRemoveLiquidity_skipIfCalledByHook",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_beforeremoveliquidity_skipifcalledbyhook-ad4c5086-2a38-488b",
+      "status": "error"
+    },
+    {
+      "testName": "test_getReserves_returns_set",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getreserves_returns_set-7b0ea089-2a6c-4a68",
+      "status": "error"
+    },
+    {
+      "testName": "test_toInt256",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_toint256-a38f30dd-47a6-4fd6",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_afterSwapFeeOnUnspecified_exactInput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_afterswapfeeonunspecified_exactinput-c7b02cac-bb50-4bf0",
+      "status": "error"
+    },
+    {
+      "testName": "test_getTickAtSqrtPrice_isValidMinSqrtPrice",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_gettickatsqrtprice_isvalidminsqrtprice-9e74f268-f120-4189",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_succeedsWithHook",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_succeedswithhook-d94fd4d9-8d14-4396",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteFalse_returnsTheNextInitializedTickFromTheNextWord",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltefalse_returnsthenextinitializedtickfromthenextword-64f0f202-e53d-40cd",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_getFeeGrowthInside_returnsAllForTwoUninitializedTicksIfTickIsInside",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_getfeegrowthinside_returnsallfortwouninitializedticksiftickisinside-aea3a83a-c5b7-447c",
+      "status": "error"
+    },
+    {
+      "testName": "test_getTickBitmap",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_gettickbitmap-d465b857-81ba-42fd",
+      "status": "error"
+    },
+    {
+      "testName": "test_beforeAfterAddLiquidity_beforeAfterRemoveLiquidity_succeedsWithHook",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_beforeafteraddliquidity_beforeafterremoveliquidity_succeedswithhook-8c3e1600-3790-4181",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteTrue_halfwayThroughEmptyWord",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltetrue_halfwaythroughemptyword-47c85f6f-ce70-4cef",
+      "status": "error"
+    },
+    {
+      "testName": "test_mostSignificantBit_two",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_mostsignificantbit_two-f6536869-c61a-48b8",
+      "status": "error"
+    },
+    {
+      "testName": "testApprove",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testapprove-c7dc0262-b95c-4ce7",
+      "status": "error"
+    },
+    {
+      "testName": "test_settle_nonNative_withoutSync_loseFunds",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_settle_nonnative_withoutsync_losefunds-75761757-fb5d-436f",
+      "status": "error"
+    },
+    {
+      "testName": "test_donate_OneToken_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_donate_onetoken_gas-e407e34e-f8e7-4437",
+      "status": "error"
+    },
+    {
+      "testName": "test_getSqrtPriceAtTick_isValidMinTickAddOne",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getsqrtpriceattick_isvalidmintickaddone-892b13a3-da8c-47df",
+      "status": "error"
+    },
+    {
+      "testName": "test_getPosition",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getposition-d5285fa9-090b-4c2c",
+      "status": "error"
+    },
+    {
+      "testName": "test_addLiquidity_failsIfLocked",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_addliquidity_failsiflocked-3cc113b0-e06b-45fc",
+      "status": "error"
+    },
+    {
+      "testName": "test_incrementNonzeroDeltaCount",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_incrementnonzerodeltacount-b29bfe2e-aaa9-4726",
+      "status": "error"
+    },
+    {
+      "testName": "test_getSqrtPriceAtTick_matchesJavaScriptImplByOneHundrethOfABip",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getsqrtpriceattick_matchesjavascriptimplbyonehundrethofabip-ed1e5919-ca60-4af9",
+      "status": "error"
+    },
+    {
+      "testName": "test_take_succeedsWithPoolWithLiquidityWithNativeToken",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_take_succeedswithpoolwithliquiditywithnativetoken-2786583e-d32a-4174",
+      "status": "error"
+    },
+    {
+      "testName": "test_setProtocolFeeController_succeedsNoRevert",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_setprotocolfeecontroller_succeedsnorevert-ae95aa9c-fc83-4896",
+      "status": "error"
+    },
+    {
+      "testName": "test_take_failsWithInvalidTokensThatDoNotReturnTrueOnTransfer",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_take_failswithinvalidtokensthatdonotreturntrueontransfer-9ef8d3c3-eee8-45d1",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_helper_native_oneForZero_exactInput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_helper_native_oneforzero_exactinput-ff3a22aa-8c3c-4784",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_update_netsTheLiquidityBasedOnUpperFlag",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_update_netstheliquiditybasedonupperflag-1cde58ea-e37d-4813",
+      "status": "error"
+    },
+    {
+      "testName": "test_afterSwap_invalidReturn",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_afterswap_invalidreturn-5b321e08-184b-4ec5",
+      "status": "error"
+    },
+    {
+      "testName": "test_isInitialized_isFlippedBackByFlipTick",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_isinitialized_isflippedbackbyfliptick-5f908007-e1df-49d7",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_noDelegateCall",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_nodelegatecall-87e255fb-4955-4b79",
+      "status": "error"
+    },
+    {
+      "testName": "test_mostSignificantBit_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_mostsignificantbit_gas-e1924dd1-da80-41c1",
+      "status": "error"
+    },
+    {
+      "testName": "test_callHook_revertsWithBubbleUp",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_callhook_revertswithbubbleup-9f720f2b-4f09-456f",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_100PercentFee_AmountIn_WithProtocol",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_100percentfee_amountin_withprotocol-8090487f-7aac-4d66",
+      "status": "error"
+    },
+    {
+      "testName": "test_removeLiquidity_succeedsWithCorrectSelectors",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_removeliquidity_succeedswithcorrectselectors-7b69ccb2-ddb0-4c0e",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_update_liquidityParsing_parsesMaxInt128StoredLiquidityGrossAfterUpdate",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_update_liquidityparsing_parsesmaxint128storedliquiditygrossafterupdate-6403c643-46bd-40cd",
+      "status": "error"
+    },
+    {
+      "testName": "test_flipTick_flippingFirstTickInWordToInitialized_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_fliptick_flippingfirsttickinwordtoinitialized_gas-3a842468-00bb-4ca4",
+      "status": "error"
+    },
+    {
+      "testName": "test_modifyLiquidity_samePosition_withSalt_isUpdated",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_modifyliquidity_sameposition_withsalt_isupdated-a9067945-c997-42b4",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromInput_returnsTheMinimumPriceForMaxInputs",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefrominput_returnstheminimumpriceformaxinputs-573a9eba-1fc1-4b89",
+      "status": "error"
+    },
+    {
+      "testName": "test_modifyLiquidity_sameSalt_differentLiquidityRouters_doNotEditSamePosition",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_modifyliquidity_samesalt_differentliquidityrouters_donoteditsameposition-be5a1080-d137-452e",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_succeedsWithCorrectSelectors",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_succeedswithcorrectselectors-2d835457-3543-4cb9",
+      "status": "error"
+    },
+    {
+      "testName": "test_isValidHookAddress_invalid_noFlagsNoDynamicFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_isvalidhookaddress_invalid_noflagsnodynamicfee-12367a76-bb63-4ef3",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteTrue_atTheWordBoundary",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltetrue_atthewordboundary-21caabb9-6fed-4b2f",
+      "status": "error"
+    },
+    {
+      "testName": "test_leastSignificantBit_two",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_leastsignificantbit_two-2997fc11-0c4f-413a",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteFalse_returnsTheNextWordsInitializedTickIfOnTheRightBoundary",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltefalse_returnsthenextwordsinitializedtickifontherightboundary-8c551e77-4b8b-409f",
+      "status": "error"
+    },
+    {
+      "testName": "test_getSqrtPriceAtTick_isValidMaxTick",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getsqrtpriceattick_isvalidmaxtick-3358f6e2-0a5d-49bd",
+      "status": "error"
+    },
+    {
+      "testName": "test_getAmount0Delta_revertsIfPriceIsZero",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getamount0delta_revertsifpriceiszero-c0ebc02d-cb27-4ea5",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromOutput_zeroForOneEqualsTrueGas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefromoutput_zeroforoneequalstruegas-b8ff5b2a-aefe-4ef1",
+      "status": "error"
+    },
+    {
+      "testName": "test_getTickAtSqrtPrice_matchesJavascriptImplWithin1",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_gettickatsqrtprice_matchesjavascriptimplwithin1-20417fa3-b589-4a22",
+      "status": "error"
+    },
+    {
+      "testName": "test_transfer_noReturnData",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_transfer_noreturndata-b8a05b2e-0403-4530",
+      "status": "error"
+    },
+    {
+      "testName": "test_removeLiquidity_withFeeTakingHook",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_removeliquidity_withfeetakinghook-1a0ce02a-95ff-41f7",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_succeedsIfInitialized",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_succeedsifinitialized-52053fbd-9480-48dc",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_withHooks_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_withhooks_gas-2b3bd3ab-3f2f-49b3",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_helper_zeroForOne_exactInput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_helper_zeroforone_exactinput-5574b8a9-6d2e-4c73",
+      "status": "error"
+    },
+    {
+      "testName": "test_collectProtocolFees_ERC20_accumulateFees_exactOutput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_collectprotocolfees_erc20_accumulatefees_exactoutput-34300aa7-1f73-4ae7",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_update_liquidityParsing_parsesMaxUint128StoredLiquidityGrossAfterUpdate",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_update_liquidityparsing_parsesmaxuint128storedliquiditygrossafterupdate-ec904700-35fc-4957",
+      "status": "error"
+    },
+    {
+      "testName": "test_isAddressZero_token_returnsFalse",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_isaddresszero_token_returnsfalse-4f4b5e86-0489-4ad5",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromOutput_puzzlingEchidnaTest",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefromoutput_puzzlingechidnatest-47eb7b80-76ed-4b69",
+      "status": "error"
+    },
+    {
+      "testName": "test_sync_balanceIsNonzero",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_sync_balanceisnonzero-41ede3e2-41b0-43d6",
+      "status": "error"
+    },
+    {
+      "testName": "test_swapNativeInput_helper_nonnative_oneForZero_exactOutput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swapnativeinput_helper_nonnative_oneforzero_exactoutput-512c43d6-a52b-4dc0",
+      "status": "error"
+    },
+    {
+      "testName": "test_settle_balanceInPool_shouldNotApplyDelta",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_settle_balanceinpool_shouldnotapplydelta-7ba5ca7c-c87e-48f5",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_getFeeGrowthInside_subtractsLowerTickIfAbove",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_getfeegrowthinside_subtractslowertickifabove-b8982276-ae7d-4c43",
+      "status": "error"
+    },
+    {
+      "testName": "test_load10_sparse",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_load10_sparse-a2650a38-f1ad-431d",
+      "status": "error"
+    },
+    {
+      "testName": "test_clear_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_clear_gas-c9260f26-6808-416f",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteFalse_returnsTickToRightIfAtInitializedTick2",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltefalse_returnsticktorightifatinitializedtick2-edbfff7c-ded0-48e9",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_update_liquidityParsing_parsesMaxInt128StoredLiquidityGrossBeforeUpdate",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_update_liquidityparsing_parsesmaxint128storedliquiditygrossbeforeupdate-40f49508-a536-42f0",
+      "status": "error"
+    },
+    {
+      "testName": "test_ffi_addLiqudity_weirdPool_1_returnsCorrectLiquidityDelta",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_ffi_addliqudity_weirdpool_1_returnscorrectliquiditydelta-c795a07b-3266-4169",
+      "status": "error"
+    },
+    {
+      "testName": "test_clear_reverts_positiveDelta_inputLessThanDelta",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_clear_reverts_positivedelta_inputlessthandelta-0611ce3c-335b-4dda",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromOutput_zeroForOneEqualsFalseGas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefromoutput_zeroforoneequalsfalsegas-7af9cf41-47aa-4967",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromInput_revertsIfLiquidityIsZero",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefrominput_revertsifliquidityiszero-8a08826c-5245-459c",
+      "status": "error"
+    },
+    {
+      "testName": "test_take_failsWithNoLiquidity",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_take_failswithnoliquidity-e353ec9c-9b0d-48f4",
+      "status": "error"
+    },
+    {
+      "testName": "test_settle_failsIfLocked",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_settle_failsiflocked-738cc9e7-7100-4c6b",
+      "status": "error"
+    },
+    {
+      "testName": "test_mostSignificantBit_one",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_mostsignificantbit_one-6637e1c9-cf5d-4695",
+      "status": "error"
+    },
+    {
+      "testName": "test_computeSwapStep_swapOneForZero_exactInPartial",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_computeswapstep_swaponeforzero_exactinpartial-39723033-ae4f-4b2a",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteTrue_entireEmptyWord",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltetrue_entireemptyword-20b9caea-4b99-43cf",
+      "status": "error"
+    },
+    {
+      "testName": "test_calculateSwapFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_calculateswapfee-de585317-c29d-471a",
+      "status": "error"
+    },
+    {
+      "testName": "test_sub",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_sub-b0784539-9a6d-4daa",
+      "status": "error"
+    },
+    {
+      "testName": "test_afterAddLiquidity_skipIfCalledByHook",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_afteraddliquidity_skipifcalledbyhook-f82b65e1-dd41-4bbe",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_tickSpacingToMaxLiquidityPerTick_returnsTheCorrectValueForHighFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_tickspacingtomaxliquiditypertick_returnsthecorrectvalueforhighfee-05b23533-6498-4114",
+      "status": "error"
+    },
+    {
+      "testName": "test_computeSwapStep_exactAmountOut_oneForZero_thatGetsCappedAtPriceTargetIn",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_computeswapstep_exactamountout_oneforzero_thatgetscappedatpricetargetin-7b0aa622-71ff-47e0",
+      "status": "error"
+    },
+    {
+      "testName": "test_collectProtocolFees_unlocked_revertsWithProtocolFeeCurrencySynced",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_collectprotocolfees_unlocked_revertswithprotocolfeecurrencysynced-3d023c18-19aa-4f11",
+      "status": "error"
+    },
+    {
+      "testName": "test_collectProtocolFees_succeeds",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_collectprotocolfees_succeeds-28c0dc97-2512-4647",
+      "status": "error"
+    },
+    {
+      "testName": "test_leastSignificantBit_powersOfTwo",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_leastsignificantbit_powersoftwo-13e3c9d4-5d0b-48b4",
+      "status": "error"
+    },
+    {
+      "testName": "test_getTickAtSqrtPrice_isValidMaxSqrtPriceMinusOne",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_gettickatsqrtprice_isvalidmaxsqrtpriceminusone-2eea40ee-4cf2-4b93",
+      "status": "error"
+    },
+    {
+      "testName": "test_toUint160",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_touint160-b1211b20-3d6e-4bbe",
+      "status": "error"
+    },
+    {
+      "testName": "test_mulDiv_revertsOverflowWithAllMaxInputs",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_muldiv_revertsoverflowwithallmaxinputs-7fd8274c-af0b-46ac",
+      "status": "error"
+    },
+    {
+      "testName": "test_getFeeGrowthGlobals0",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getfeegrowthglobals0-d777de84-d5d2-4c04",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_tickSpacingToMaxLiquidityPerTick_returnsTheCorrectValueFor2302",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_tickspacingtomaxliquiditypertick_returnsthecorrectvaluefor2302-fe6f4e09-0225-4a05",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_succeedsWithHooksIfInitialized",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_succeedswithhooksifinitialized-0f6dc615-1181-44ef",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_50PercentLPFee_AmountIn_NoProtocol",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_50percentlpfee_amountin_noprotocol-0d1ea713-7afd-4be8",
+      "status": "error"
+    },
+    {
+      "testName": "test_getTickFeeGrowthOutside",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_gettickfeegrowthoutside-f07e6961-b76b-48c1",
+      "status": "error"
+    },
+    {
+      "testName": "test_donate_succeedsWhenPoolHasLiquidity",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_donate_succeedswhenpoolhasliquidity-e1a0d66a-43cb-4b4e",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_tickSpacingToMaxLiquidityPerTick_returnsTheCorrectValueForEntireRange",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_tickspacingtomaxliquiditypertick_returnsthecorrectvalueforentirerange-324676f4-03ea-44d0",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_update_doesNotFlipFromNonzeroToGreaterNonzero",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_update_doesnotflipfromnonzerotogreaternonzero-92c2e69c-2677-4f97",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteTrue_onBoundary_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltetrue_onboundary_gas-8b54d8d3-3767-4515",
+      "status": "error"
+    },
+    {
+      "testName": "test_gas_modifyLiquidity_newPosition",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_gas_modifyliquidity_newposition-7824ed67-08d9-4bee",
+      "status": "error"
+    },
+    {
+      "testName": "test_beforeSwap_skipIfCalledByHook",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_beforeswap_skipifcalledbyhook-7490fd46-a3af-4196",
+      "status": "error"
+    },
+    {
+      "testName": "test_isInitialized_isNotChangedByAnotherFlipToADifferentTickOnAnotherWord",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_isinitialized_isnotchangedbyanotherfliptoadifferenttickonanotherword-75c56070-95c9-473d",
+      "status": "error"
+    },
+    {
+      "testName": "test_beforeAddLiquidity_skipIfCalledByHook",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_beforeaddliquidity_skipifcalledbyhook-b5f731ac-4167-41c4",
+      "status": "error"
+    },
+    {
+      "testName": "test_collectProtocolFees_revertsWithInvalidCaller",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_collectprotocolfees_revertswithinvalidcaller-f41ce703-ba30-4ccd",
+      "status": "error"
+    },
+    {
+      "testName": "test_mulDiv_phantomOverflowRepeatingDecimal",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_muldiv_phantomoverflowrepeatingdecimal-d815642f-f4bb-41a0",
+      "status": "error"
+    },
+    {
+      "testName": "test_updateDynamicLPFee_beforeSwap_failsWithTooLargeFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_updatedynamiclpfee_beforeswap_failswithtoolargefee-30467839-0a42-4f3b",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteTrue_justBelowBoundary_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltetrue_justbelowboundary_gas-9c022850-fa63-4f6c",
+      "status": "error"
+    },
+    {
+      "testName": "test_computeSwapStep_swapZeroForOne_exactInCapped",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_computeswapstep_swapzeroforone_exactincapped-a56e555a-b89c-41a2",
+      "status": "error"
+    },
+    {
+      "testName": "test_addDelta_throwsForOverflow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_adddelta_throwsforoverflow-ddfe7c27-6403-4e5e",
+      "status": "error"
+    },
+    {
+      "testName": "test_take_succeedsWithPoolWithLiquidity",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_take_succeedswithpoolwithliquidity-bf3fa618-f2b1-49a2",
+      "status": "error"
+    },
+    {
+      "testName": "test_afterSwap_skipIfCalledByHook",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_afterswap_skipifcalledbyhook-465f7cf3-7b89-48c5",
+      "status": "error"
+    },
+    {
+      "testName": "test_nestedSwap",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nestedswap-a7729e91-80f6-4dbc",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_againstLiqWithNative_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_againstliqwithnative_gas-41ae02df-4ad3-464b",
+      "status": "error"
+    },
+    {
+      "testName": "test_toUint128_fromUint256",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_touint128_fromuint256-8a3f4cbd-be7b-4e02",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_update_flipsFromNonzeroToZero",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_update_flipsfromnonzerotozero-68e86baa-3efd-48e6",
+      "status": "error"
+    },
+    {
+      "testName": "test_dynamicReturnSwapFee_notStored",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_dynamicreturnswapfee_notstored-09ffb4a5-89a5-4fd6",
+      "status": "error"
+    },
+    {
+      "testName": "test_nonzeroDeltaCountSlot",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nonzerodeltacountslot-829d8b92-6d82-48fe",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteTrue_returnsSameTickIfInitialized",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltetrue_returnssametickifinitialized-b9316bf7-1029-4e00",
+      "status": "error"
+    },
+    {
+      "testName": "test_beforeAfterAddLiquidity_calledWithPositiveLiquidityDelta",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_beforeafteraddliquidity_calledwithpositiveliquiditydelta-c7ccc7c4-b4e0-4a52",
+      "status": "error"
+    },
+    {
+      "testName": "test_mulDivRoundingUp_validWithPhantomOverflow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_muldivroundingup_validwithphantomoverflow-5853785b-80aa-4006",
+      "status": "error"
+    },
+    {
+      "testName": "test_getSlot0",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getslot0-209c16de-05c8-4de4",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteFalse_doesNotExceedBoundary",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltefalse_doesnotexceedboundary-bf40b612-bcd6-4d47",
+      "status": "error"
+    },
+    {
+      "testName": "test_nestedRemoveLiquidity",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nestedremoveliquidity-40abc7cd-9f04-4abf",
+      "status": "error"
+    },
+    {
+      "testName": "test_validate_doesNotRevertWithMaxFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_validate_doesnotrevertwithmaxfee-11cc024d-96c1-4ee7",
+      "status": "error"
+    },
+    {
+      "testName": "test_swapNativeInput_helper_nonnative_oneForZero_exactInput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swapnativeinput_helper_nonnative_oneforzero_exactinput-05e5faa7-40c0-4579",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteFalse_returnsTheTickDirectlyToTheRight",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltefalse_returnsthetickdirectlytotheright-1f79ac32-d72a-4348",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_cross_twoFlipsAreNoOp",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_cross_twoflipsarenoop-057a5433-c5a4-411e",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_failsWithIncorrectSelectors",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_failswithincorrectselectors-37c49436-9e4e-4ffe",
+      "status": "error"
+    },
+    {
+      "testName": "test_gas_modifyLiquidity_updateSamePosition_withSalt",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_gas_modifyliquidity_updatesameposition_withsalt-f08ab0ee-7bb1-4125",
+      "status": "error"
+    },
+    {
+      "testName": "test_nestedDonate",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nesteddonate-1a270a85-1a1e-40bb",
+      "status": "error"
+    },
+    {
+      "testName": "test_toId_nativeReturns0",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_toid_nativereturns0-1f234cff-6d3c-4fae",
+      "status": "error"
+    },
+    {
+      "testName": "test_getAmount1Delta_1Amount1ForPriceOf1To1_21",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getamount1delta_1amount1forpriceof1to1_21-267a1930-449f-4490",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromOutput_revertsIfLiquidityIsZero",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefromoutput_revertsifliquidityiszero-d7472dee-9695-4c60",
+      "status": "error"
+    },
+    {
+      "testName": "test_isDynamicFee_returnsTrue",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_isdynamicfee_returnstrue-9669e026-80b1-4659",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_withNative_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_withnative_gas-895b0b38-37f8-463e",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteFalse_onBoundary_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltefalse_onboundary_gas-5d3f6148-f457-401b",
+      "status": "error"
+    },
+    {
+      "testName": "test_mulDiv_validWithoutPhantomOverflow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_muldiv_validwithoutphantomoverflow-a0a0867a-515e-4c9c",
+      "status": "error"
+    },
+    {
+      "testName": "test_removeLiquidity_failsIfLocked",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_removeliquidity_failsiflocked-24f87e1f-01f8-4155",
+      "status": "error"
+    },
+    {
+      "testName": "test_isAddressZero_native_returnsTrue",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_isaddresszero_native_returnstrue-7050fdb5-bce6-43a7",
+      "status": "error"
+    },
+    {
+      "testName": "test_revertTransferFromBalanceUnderflow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_reverttransferfrombalanceunderflow-44c52423-6736-418b",
+      "status": "error"
+    },
+    {
+      "testName": "test_mulDiv_revertsIfOutputOverflows",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_muldiv_revertsifoutputoverflows-5d81724b-e333-4d26",
+      "status": "error"
+    },
+    {
+      "testName": "test_slot0_constants_masks",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_slot0_constants_masks-c38ad1db-3d17-443a",
+      "status": "error"
+    },
+    {
+      "testName": "test_removeLiquidity_failsWithIncorrectSelectors",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_removeliquidity_failswithincorrectselectors-6dece230-2056-4f65",
+      "status": "error"
+    },
+    {
+      "testName": "test_unlockedSlot",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_unlockedslot-28d3122b-df3b-4c36",
+      "status": "error"
+    },
+    {
+      "testName": "test_initialize_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_initialize_gas-3c1017c4-7312-491c",
+      "status": "error"
+    },
+    {
+      "testName": "test_afterDonate_invalidReturn",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_afterdonate_invalidreturn-9421cad6-a80c-4e70",
+      "status": "error"
+    },
+    {
+      "testName": "test_leastSignificantBit_maxUint256",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_leastsignificantbit_maxuint256-1e863a25-147e-456d",
+      "status": "error"
+    },
+    {
+      "testName": "test_isInitialized_isFlippedByFlipTick",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_isinitialized_isflippedbyfliptick-810a9719-b9d5-4568",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_tickSpacingToMaxLiquidityPerTick_gasCostMinTickSpacing",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_tickspacingtomaxliquiditypertick_gascostmintickspacing-da1d59f5-128b-4ad3",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_helper_native_oneForZero_exactOutput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_helper_native_oneforzero_exactoutput-3d9d3361-028d-4a39",
+      "status": "error"
+    },
+    {
+      "testName": "test_addLiquidity_succeedsWithCorrectSelectors",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_addliquidity_succeedswithcorrectselectors-67ea9ef1-0602-4bb6",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_beforeSwapNoOpsSwap_exactInput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_beforeswapnoopsswap_exactinput-2e12a16a-c61f-4fea",
+      "status": "error"
+    },
+    {
+      "testName": "test_initialize_succeedsWithCorrectSelectors",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_initialize_succeedswithcorrectselectors-65114f29-4724-4558",
+      "status": "error"
+    },
+    {
+      "testName": "test_addLiquidity_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_addliquidity_gas-cc7bd8a6-584e-4a8e",
+      "status": "error"
+    },
+    {
+      "testName": "test_getSqrtPriceAtTick_throwsForTooLow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getsqrtpriceattick_throwsfortoolow-c2c63578-47b6-4e36",
+      "status": "error"
+    },
+    {
+      "testName": "test_syncSlot",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_syncslot-72c185bb-7ffd-41dd",
+      "status": "error"
+    },
+    {
+      "testName": "test_getInitialLPFee_forStaticFeeIsCorrect",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getinitiallpfee_forstaticfeeiscorrect-a7de703f-eab1-40f3",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_tickSpacingToMaxLiquidityPerTick_returnsTheCorrectValueForLowFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_tickspacingtomaxliquiditypertick_returnsthecorrectvalueforlowfee-31bfad77-4e12-4cf4",
+      "status": "error"
+    },
+    {
+      "testName": "test_validate_revertsWithLPFeeTooLarge",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_validate_revertswithlpfeetoolarge-90c21853-ad5d-4d86",
+      "status": "error"
+    },
+    {
+      "testName": "test_removeLiquidity_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_removeliquidity_gas-fcad4611-0fca-4078",
+      "status": "error"
+    },
+    {
+      "testName": "test_settle_withStartingBalance",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_settle_withstartingbalance-24d0171a-0114-4ef4",
+      "status": "error"
+    },
+    {
+      "testName": "test_clear_positiveDelta_inputExact_succeeds",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_clear_positivedelta_inputexact_succeeds-6f658d45-b859-4399",
+      "status": "error"
+    },
+    {
+      "testName": "test_mulDiv_validAllMaxInputs",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_muldiv_validallmaxinputs-314e404c-10c3-46b2",
+      "status": "error"
+    },
+    {
+      "testName": "test_donate_succeedsWithCorrectSelectors",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_donate_succeedswithcorrectselectors-a1e3cadc-b321-4767",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromOutput_succeedsIfOutputAmountIsJustLessThanTheVirtualReservesOfCurrency1",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefromoutput_succeedsifoutputamountisjustlessthanthevirtualreservesofcurrency1-e2ee9609-e7b4-4299",
+      "status": "error"
+    },
+    {
+      "testName": "test_isDynamicFee_returnsFalse_forOtherValues",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_isdynamicfee_returnsfalse_forothervalues-7913da2e-1b26-4b4b",
+      "status": "error"
+    },
+    {
+      "testName": "test_getLiquidity",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getliquidity-ca8b3dc2-b42b-4d2c",
+      "status": "error"
+    },
+    {
+      "testName": "test_revertTransferBalanceUnderflow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_reverttransferbalanceunderflow-e1acf9b2-956b-480e",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromInput_inputAmountOf0_1Currency0",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefrominput_inputamountof0_1currency0-f22674b6-8ea4-41ce",
+      "status": "error"
+    },
+    {
+      "testName": "test_initcodeHash",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_initcodehash-2252aa58-3d43-4c60",
+      "status": "error"
+    },
+    {
+      "testName": "test_addLiquidity_secondAdditionSameRange_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_addliquidity_secondadditionsamerange_gas-415ee4d2-6cb7-44e7",
+      "status": "error"
+    },
+    {
+      "testName": "test_afterAddLiquidity_invalidReturn",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_afteraddliquidity_invalidreturn-1485917b-3a68-43d5",
+      "status": "error"
+    },
+    {
+      "testName": "test_modifyLiquidity_sameTicks_withDifferentSalt_isNotUpdated",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_modifyliquidity_sameticks_withdifferentsalt_isnotupdated-fb352f1f-c202-4297",
+      "status": "error"
+    },
+    {
+      "testName": "test_getSqrtPriceAtTick_isValidMinTick",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getsqrtpriceattick_isvalidmintick-4a593542-f6f4-4860",
+      "status": "error"
+    },
+    {
+      "testName": "test_beforeAfterRemoveLiquidity_calledWithPositiveLiquidityDelta",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_beforeafterremoveliquidity_calledwithpositiveliquiditydelta-f221e775-a5cc-4df1",
+      "status": "error"
+    },
+    {
+      "testName": "test_modifyLiquidity_noDelegateCall",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_modifyliquidity_nodelegatecall-3cbd37e8-f297-4183",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_getFeeGrowthInside_worksCorrectlyWithOverflowOnInsideTick",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_getfeegrowthinside_workscorrectlywithoverflowoninsidetick-513669c7-d630-430f",
+      "status": "error"
+    },
+    {
+      "testName": "test_getSqrtPriceAtTick_gasCost",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getsqrtpriceattick_gascost-3b48fad1-7c86-4bea",
+      "status": "error"
+    },
+    {
+      "testName": "test_getAmount0Delta_gasCostForAmount0WhereRoundUpIsTrue",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getamount0delta_gascostforamount0whereroundupistrue-28d0e329-c67f-43be",
+      "status": "error"
+    },
+    {
+      "testName": "test_mulDivRoundingUp_validWithNoPhantomOverflow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_muldivroundingup_validwithnophantomoverflow-42293d6f-7924-456a",
+      "status": "error"
+    },
+    {
+      "testName": "test_afterRemoveLiquidity_skipIfCalledByHook",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_afterremoveliquidity_skipifcalledbyhook-f2d7331a-ff58-4870",
+      "status": "error"
+    },
+    {
+      "testName": "test_MIN_TICK_equalsNegativeMAX_TICK",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_min_tick_equalsnegativemax_tick-a581a4be-35ca-4114",
+      "status": "error"
+    },
+    {
+      "testName": "test_getTickAtSqrtPrice_isValidPriceClosestToMaxTick",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_gettickatsqrtprice_isvalidpriceclosesttomaxtick-52b81674-0236-4ee7",
+      "status": "error"
+    },
+    {
+      "testName": "test_collectProtocolFees_ERC20_accumulateFees_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_collectprotocolfees_erc20_accumulatefees_gas-82f03598-50e2-413c",
+      "status": "error"
+    },
+    {
+      "testName": "test_beforeRemoveLiquidity_invalidReturn",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_beforeremoveliquidity_invalidreturn-245ad61e-ec32-4280",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromInput_zeroForOneEqualsFalseGas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefrominput_zeroforoneequalsfalsegas-a48f0399-056e-4209",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromOutput_revertsIfAmountOutIsImpossibleInZeroForOneDirection",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefromoutput_revertsifamountoutisimpossibleinzeroforonedirection-c86ed1cb-8a86-4c47",
+      "status": "error"
+    },
+    {
+      "testName": "test_getSqrtPriceAtTick_isLessThanJSImplMinTick",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getsqrtpriceattick_islessthanjsimplmintick-de9c95c4-67f7-43b9",
+      "status": "error"
+    },
+    {
+      "testName": "test_removeLiquidity_failsIfNotInitialized",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_removeliquidity_failsifnotinitialized-19cfcd09-fe0b-40db",
+      "status": "error"
+    },
+    {
+      "testName": "test_flipTick_flippingSecondTickInWordToInitialized_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_fliptick_flippingsecondtickinwordtoinitialized_gas-4acf40e1-78c3-4fa3",
+      "status": "error"
+    },
+    {
+      "testName": "test_mulDivRoundingUp_validWithPhantomOverflowRepeatingDecimal",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_muldivroundingup_validwithphantomoverflowrepeatingdecimal-230236df-e97e-4843",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromInput_zeroForOneEqualsTrueGas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefrominput_zeroforoneequalstruegas-a4988239-288f-4977",
+      "status": "error"
+    },
+    {
+      "testName": "test_leastSignificantBit_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_leastsignificantbit_gas-3e3e2476-cf78-458e",
+      "status": "error"
+    },
+    {
+      "testName": "test_getInitialLPFee_forDynamicFeeIsZero",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getinitiallpfee_fordynamicfeeiszero-353a5eb4-74ff-43e0",
+      "status": "error"
+    },
+    {
+      "testName": "test_beforeAddLiquidity_invalidReturn",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_beforeaddliquidity_invalidreturn-6301b790-3621-43b1",
+      "status": "error"
+    },
+    {
+      "testName": "test_getFeeGrowthGlobals1",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getfeegrowthglobals1-f6875c61-e89b-40bb",
+      "status": "error"
+    },
+    {
+      "testName": "test_computeSwapStep_swapZeroForOne_exactOutCapped",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_computeswapstep_swapzeroforone_exactoutcapped-da5b7ced-a41c-400f",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromInput_revertsIfInputAmountOverflowsThePrice",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefrominput_revertsifinputamountoverflowstheprice-130c8889-d5cd-428b",
+      "status": "error"
+    },
+    {
+      "testName": "test_setProtocolFee_revertsWithInvalidCaller",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_setprotocolfee_revertswithinvalidcaller-5422756d-b6f6-40f2",
+      "status": "error"
+    },
+    {
+      "testName": "test_donate_failsIfNotInitialized",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_donate_failsifnotinitialized-f77d4176-42b0-4786",
+      "status": "error"
+    },
+    {
+      "testName": "test_delegateCallWithModifier_revertsWithDelegateCallNotAllowed",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_delegatecallwithmodifier_revertswithdelegatecallnotallowed-fdddb164-27eb-4f76",
+      "status": "error"
+    },
+    {
+      "testName": "test_revertTransferBalanceOverflow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_reverttransferbalanceoverflow-83de12e2-5f86-49b2",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteFalse_skipsHalfWord",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltefalse_skipshalfword-6a83b463-ec7c-4fba",
+      "status": "error"
+    },
+    {
+      "testName": "test_getSqrtPriceAtTick_isGreaterThanJSImplMaxTick",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getsqrtpriceattick_isgreaterthanjsimplmaxtick-6ca9812b-1b66-4e18",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_getFeeGrowthInside_returns0ForTwoUninitializedTicksIfTickIsBelow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_getfeegrowthinside_returns0fortwouninitializedticksiftickisbelow-7d82e1f2-f783-4f61",
+      "status": "error"
+    },
+    {
+      "testName": "test_getTickAtSqrtPrice_gasCost",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_gettickatsqrtprice_gascost-6ada4838-4369-4406",
+      "status": "error"
+    },
+    {
+      "testName": "testIsValidHookAddress_invalid_zeroAddressWithDynamicFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testisvalidhookaddress_invalid_zeroaddresswithdynamicfee-214421dc-f080-4c4e",
+      "status": "error"
+    },
+    {
+      "testName": "test_computeSwapStep_amountOut_isCappedAtTheDesiredAmountOut",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_computeswapstep_amountout_iscappedatthedesiredamountout-0c48f743-4f40-4705",
+      "status": "error"
+    },
+    {
+      "testName": "test_removeLiquidity_succeeds",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_removeliquidity_succeeds-9ca5cf93-814a-4015",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_helper_native_zeroForOne_exactOutput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_helper_native_zeroforone_exactoutput-62f6df05-2e22-4694",
+      "status": "error"
+    },
+    {
+      "testName": "test_take_failsIfLocked",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_take_failsiflocked-d1a05366-32e3-495d",
+      "status": "error"
+    },
+    {
+      "testName": "test_updateProtocolFees_succeeds",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_updateprotocolfees_succeeds-f36ca14a-7dc1-41e0",
+      "status": "error"
+    },
+    {
+      "testName": "test_mulDiv_validWithPhantomOverflow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_muldiv_validwithphantomoverflow-5819e12f-907b-48f1",
+      "status": "error"
+    },
+    {
+      "testName": "test_addLiquidity_withHooks_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_addliquidity_withhooks_gas-f6ef50c7-fd11-4a5a",
+      "status": "error"
+    },
+    {
+      "testName": "testMint",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testmint-43cad8ad-a13e-4df8",
+      "status": "error"
+    },
+    {
+      "testName": "test_mulDivRoundingUp_revertsIfMulDivOverflows256BitsAfterRoundingUp",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_muldivroundingup_revertsifmuldivoverflows256bitsafterroundingup-3be2c528-35d8-484e",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_mint6909IfOutputNotTaken_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_mint6909ifoutputnottaken_gas-6ad67972-38e1-44a0",
+      "status": "error"
+    },
+    {
+      "testName": "test_updateDynamicLPFee_afterInitialize_failsWithTooLargeFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_updatedynamiclpfee_afterinitialize_failswithtoolargefee-ad8dd713-1534-4058",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_burnNative6909AsInput_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_burnnative6909asinput_gas-56780c66-aae3-4472",
+      "status": "error"
+    },
+    {
+      "testName": "test_initialize_initializesFeeTo0",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_initialize_initializesfeeto0-ed1c2bb9-f236-4e74",
+      "status": "error"
+    },
+    {
+      "testName": "test_divRoundingUp_RoundsUp",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_divroundingup_roundsup-4a9c9cbf-42e4-4b9c",
+      "status": "error"
+    },
+    {
+      "testName": "test_simpleMulDiv_succeeds",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_simplemuldiv_succeeds-9ceee044-0781-40fa",
+      "status": "error"
+    },
+    {
+      "testName": "test_afterRemoveLiquidity_invalidReturn",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_afterremoveliquidity_invalidreturn-d7dd7edc-708d-4cad",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_revertsWith_InvalidFeeForExactOut_whenFeeIsMax",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_revertswith_invalidfeeforexactout_whenfeeismax-2406b568-3162-49e0",
+      "status": "error"
+    },
+    {
+      "testName": "test_add_revertsOnOverflow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_add_revertsonoverflow-3ad13f00-5134-4215",
+      "status": "error"
+    },
+    {
+      "testName": "test_mulDiv_revertsWithOverflowingNumeratorAndZeroDenominator",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_muldiv_revertswithoverflowingnumeratorandzerodenominator-356b700b-2eab-40af",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromInput_canReturn1WithEnoughAmountInAndZeroForOneEqualsTrue",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefrominput_canreturn1withenoughamountinandzeroforoneequalstrue-378688a1-a952-4883",
+      "status": "error"
+    },
+    {
+      "testName": "test_clear_reverts_negativeDelta",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_clear_reverts_negativedelta-d59eb15f-08c7-4256",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_failsIfLocked",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_failsiflocked-aba62333-3e9f-432a",
+      "status": "error"
+    },
+    {
+      "testName": "test_computeSwapStep_targetPriceOf1UsesPartialInputAmount",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_computeswapstep_targetpriceof1usespartialinputamount-35b0a605-faf4-415d",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromOutput_revertsIfAmountOutIsImpossibleInOneForZeroDirection",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefromoutput_revertsifamountoutisimpossibleinoneforzerodirection-7bcf38a3-a33f-46ef",
+      "status": "error"
+    },
+    {
+      "testName": "test_returnDynamicSwapFee_beforeSwap_succeeds_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_returndynamicswapfee_beforeswap_succeeds_gas-d5bc58c5-5126-4a21",
+      "status": "error"
+    },
+    {
+      "testName": "test_swapNativeInput_helper_zeroForOne_exactOutput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swapnativeinput_helper_zeroforone_exactoutput-980878cb-ee48-431d",
+      "status": "error"
+    },
+    {
+      "testName": "test_simpleMulDiv_noOverflow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_simplemuldiv_nooverflow-028fe857-aaaa-48a6",
+      "status": "error"
+    },
+    {
+      "testName": "test_swapNativeInput_helper_nonnative_zeroForOne_exactOutput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swapnativeinput_helper_nonnative_zeroforone_exactoutput-5e8fafa7-7ba1-4130",
+      "status": "error"
+    },
+    {
+      "testName": "testSetOperator",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testsetoperator-622c39da-f69d-462f",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_againstLiquidity_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_againstliquidity_gas-81a1884f-29e4-42d7",
+      "status": "error"
+    },
+    {
+      "testName": "test_getInitialLPFee_revertsWithLPFeeTooLarge_forStaticFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getinitiallpfee_revertswithlpfeetoolarge_forstaticfee-217d794c-6bef-412e",
+      "status": "error"
+    },
+    {
+      "testName": "test_removeLiquidity_someLiquidityRemains_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_removeliquidity_someliquidityremains_gas-d47c5349-92bd-4563",
+      "status": "error"
+    },
+    {
+      "testName": "test_computeSwapStep_exactAmountIn_oneForZero_thatIsFullySpentIn",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_computeswapstep_exactamountin_oneforzero_thatisfullyspentin-7dd7abc2-97f7-4848",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromInput_revertsIfPriceIsZero",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefrominput_revertsifpriceiszero-468f94c6-261e-4d35",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromOutput_revertsIfOutputAmountIsExactlyTheVirtualReservesOfCurrency0",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefromoutput_revertsifoutputamountisexactlythevirtualreservesofcurrency0-307fac07-c2f6-4556",
+      "status": "error"
+    },
+    {
+      "testName": "test_mulDivRoundingUp_validWithAllMaxInputs",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_muldivroundingup_validwithallmaxinputs-3977884c-38a4-418f",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_gas-c709a1c9-7cf4-4fe5",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_burn6909AsInput_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_burn6909asinput_gas-b0868b38-5a00-4b04",
+      "status": "error"
+    },
+    {
+      "testName": "test_getTickAtSqrtPrice_throwsForTooHigh",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_gettickatsqrtprice_throwsfortoohigh-7fbf8741-644c-4474",
+      "status": "error"
+    },
+    {
+      "testName": "test_toBalanceDelta",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_tobalancedelta-b87cfb0f-5967-4b47",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromInput_inputAmountOf0_1Currency1",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefrominput_inputamountof0_1currency1-707b6f8d-dd5b-4b23",
+      "status": "error"
+    },
+    {
+      "testName": "test_lock",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_lock-de6b38d9-eb45-460e",
+      "status": "error"
+    },
+    {
+      "testName": "test_mulDivRoundingUp_revertsIfMulDivOverflows256BitsAfterRoundingUpCase2",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_muldivroundingup_revertsifmuldivoverflows256bitsafterroundingupcase2-65e5a707-1f1c-4763",
+      "status": "error"
+    },
+    {
+      "testName": "test_getZeroForOneFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getzeroforonefee-cf73eb8b-fad0-4c6c",
+      "status": "error"
+    },
+    {
+      "testName": "test_leastSignificantBit_revertsWhenZero",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_leastsignificantbit_revertswhenzero-9505fc6f-4d14-41cb",
+      "status": "error"
+    },
+    {
+      "testName": "test_mostSignificantBit_powersOfTwo",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_mostsignificantbit_powersoftwo-4a1dfa76-5a75-453a",
+      "status": "error"
+    },
+    {
+      "testName": "test_ffi_addLiqudity_weirdPool_0_returnsCorrectLiquidityDelta",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_ffi_addliqudity_weirdpool_0_returnscorrectliquiditydelta-aeaba6a9-50d8-4226",
+      "status": "error"
+    },
+    {
+      "testName": "test_unlock_EmitsCorrectId",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_unlock_emitscorrectid-a1a7f985-4500-4fa7",
+      "status": "error"
+    },
+    {
+      "testName": "test_updateDynamicLPFee_afterInitialize_initializesFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_updatedynamiclpfee_afterinitialize_initializesfee-1c5009c2-8f12-4bb8",
+      "status": "error"
+    },
+    {
+      "testName": "test_beforeSwap_invalidReturn",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_beforeswap_invalidreturn-65b6141a-e498-4d51",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteTrue_forEntireWord_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltetrue_forentireword_gas-f80eb7c3-e50b-4fa9",
+      "status": "error"
+    },
+    {
+      "testName": "test_dynamicReturnSwapFee_notUsedIfPoolIsStaticFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_dynamicreturnswapfee_notusedifpoolisstaticfee-d1a998ef-248a-4aa9",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_update_doesNotSetAnyGrowthFieldsIfTickIsAlreadyInitialized",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_update_doesnotsetanygrowthfieldsiftickisalreadyinitialized-8cc4ebea-ba29-4895",
+      "status": "error"
+    },
+    {
+      "testName": "test_beforeInitialize_invalidReturn",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_beforeinitialize_invalidreturn-1597672c-b74b-4731",
+      "status": "error"
+    },
+    {
+      "testName": "test_getSqrtPriceAtTick_throwsForTooHigh",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getsqrtpriceattick_throwsfortoohigh-4545f0af-3ae0-47de",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteFalse_skipsEntireWord",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltefalse_skipsentireword-e8265ce9-2408-44ac",
+      "status": "error"
+    },
+    {
+      "testName": "test_isInitialized_isFalseAtFirst",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_isinitialized_isfalseatfirst-25ffdc32-f607-4538",
+      "status": "error"
+    },
+    {
+      "testName": "test_getAmount0Delta_returns0IfLiquidityIs0",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getamount0delta_returns0ifliquidityis0-9d9f611c-6769-4fc2",
+      "status": "error"
+    },
+    {
+      "testName": "test_isValidHookAddress_valid_anyFlags",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_isvalidhookaddress_valid_anyflags-3070c6d5-94ed-4b69",
+      "status": "error"
+    },
+    {
+      "testName": "test_addLiquidity_withFeeTakingHook",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_addliquidity_withfeetakinghook-2544f387-32eb-4e82",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_tickSpacingToMaxLiquidityPerTick_gasCostMaxTickSpacing",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_tickspacingtomaxliquiditypertick_gascostmaxtickspacing-6b5d9dc1-a254-449b",
+      "status": "error"
+    },
+    {
+      "testName": "test_afterDonate_skipIfCalledByHook",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_afterdonate_skipifcalledbyhook-64906bfe-e050-4cee",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_tickSpacingToMaxLiquidityPerTick_returnsTheCorrectValueForMediumFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_tickspacingtomaxliquiditypertick_returnsthecorrectvalueformediumfee-b1219df4-3a3a-41b7",
+      "status": "error"
+    },
+    {
+      "testName": "test_addLiquidity_6909",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_addliquidity_6909-dcd065ba-99cd-4b3c",
+      "status": "error"
+    },
+    {
+      "testName": "test_modifyLiquidity_samePosition_zeroSalt_isUpdated",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_modifyliquidity_sameposition_zerosalt_isupdated-d8320141-3f45-4706",
+      "status": "error"
+    },
+    {
+      "testName": "test_sync_balanceIsZero",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_sync_balanceiszero-5cb3351e-c8d6-481f",
+      "status": "error"
+    },
+    {
+      "testName": "test_computeSwapStep_swapOneForZero_exactOutCapped",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_computeswapstep_swaponeforzero_exactoutcapped-7cf9e8fd-fad6-4c61",
+      "status": "error"
+    },
+    {
+      "testName": "test_swapNativeInput_helper_zeroForOne_exactInput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swapnativeinput_helper_zeroforone_exactinput-53e7ef8b-d832-4d5a",
+      "status": "error"
+    },
+    {
+      "testName": "test_clear_reverts_positiveDelta_inputZero",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_clear_reverts_positivedelta_inputzero-9419c1d9-43e1-4d0c",
+      "status": "error"
+    },
+    {
+      "testName": "test_burn_failsIfLocked",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_burn_failsiflocked-78e38e0c-512d-4f15",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromOutput_revertsIfPriceIsZero",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefromoutput_revertsifpriceiszero-61ef5c20-441d-4fe8",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromOutput_revertsIfOutputAmountIsGreaterThanTheVirtualReservesOfCurrency1",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefromoutput_revertsifoutputamountisgreaterthanthevirtualreservesofcurrency1-1fc612a4-53d3-424e",
+      "status": "error"
+    },
+    {
+      "testName": "test_isValidProtocolFee_fee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_isvalidprotocolfee_fee-de91c2c9-bdbe-4245",
+      "status": "error"
+    },
+    {
+      "testName": "test_addLiquidity_succeeds",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_addliquidity_succeeds-f7166cea-24a3-465b",
+      "status": "error"
+    },
+    {
+      "testName": "test_donate_failsWithIncorrectSelectors",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_donate_failswithincorrectselectors-000f6013-bf8e-45b5",
+      "status": "error"
+    },
+    {
+      "testName": "test_gas_noDelegateCall",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_gas_nodelegatecall-02400b3c-ff59-43e4",
+      "status": "error"
+    },
+    {
+      "testName": "test_mint_failsIfLocked",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_mint_failsiflocked-3bf6423f-8e17-4ff1",
+      "status": "error"
+    },
+    {
+      "testName": "test_getAmount0Delta_1Amount1ForPriceOf1To1_21",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getamount0delta_1amount1forpriceof1to1_21-d67f282b-acec-4a39",
+      "status": "error"
+    },
+    {
+      "testName": "test_swapComputation_sqrtPTimessqrtQOverflows",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swapcomputation_sqrtptimessqrtqoverflows-dceb6cd0-2473-4fc9",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteTrue_wordBoundary",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltetrue_wordboundary-66da7716-15d0-4c63",
+      "status": "error"
+    },
+    {
+      "testName": "test_dynamicReturnSwapFee_initializeZeroSwapFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_dynamicreturnswapfee_initializezeroswapfee-9841ea3c-09ab-4439",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_99PercentFee_AmountOut_WithProtocol",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_99percentfee_amountout_withprotocol-8067078c-4dc4-4e9b",
+      "status": "error"
+    },
+    {
+      "testName": "test_resultOverflows_helper",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_resultoverflows_helper-c07ed1e0-0fb2-491f",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_tickSpacingToMaxLiquidityPerTick_returnsTheCorrectValueForMinTickSpacing",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_tickspacingtomaxliquiditypertick_returnsthecorrectvalueformintickspacing-30f8313e-46d8-4728",
+      "status": "error"
+    },
+    {
+      "testName": "test_flipTick_flipsOnlyTheSpecifiedTick",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_fliptick_flipsonlythespecifiedtick-9ff3026b-7b42-4908",
+      "status": "error"
+    },
+    {
+      "testName": "test_nestedInitialize",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nestedinitialize-d4331860-b483-4c94",
+      "status": "error"
+    },
+    {
+      "testName": "test_getSqrtPriceAtTick_throwsForInt24Min",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getsqrtpriceattick_throwsforint24min-e3462ab6-954c-47e9",
+      "status": "error"
+    },
+    {
+      "testName": "test_clear_reverts_positiveDelta_inputGreaterThanDelta",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_clear_reverts_positivedelta_inputgreaterthandelta-81fd401e-bba9-4f85",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_helper_zeroForOne_exactOutput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_helper_zeroforone_exactoutput-9306b8fd-3ba7-4e38",
+      "status": "error"
+    },
+    {
+      "testName": "test_collectProtocolFees_nativeToken_returnsAllFeesIf0IsProvidedAsParameter",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_collectprotocolfees_nativetoken_returnsallfeesif0isprovidedasparameter-2817046c-55bc-4df0",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_succeeds",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_succeeds-44e3ef9c-ef42-4bf3",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_update_liquidityParsing_parsesMaxUint128StoredLiquidityGrossBeforeUpdate",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_update_liquidityparsing_parsesmaxuint128storedliquiditygrossbeforeupdate-55186b3f-3a07-4a56",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromOutput_returnsInputPriceIfAmountInIsZeroAndZeroForOneEqualsTrue",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefromoutput_returnsinputpriceifamountiniszeroandzeroforoneequalstrue-48483847-4980-499f",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_helper_native_zeroForOne_exactInput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_helper_native_zeroforone_exactinput-ab7ba533-50de-4408",
+      "status": "error"
+    },
+    {
+      "testName": "test_computeSwapStep_swapZeroForOne_exactInPartial",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_computeswapstep_swapzeroforone_exactinpartial-71b22695-57cb-45ea",
+      "status": "error"
+    },
+    {
+      "testName": "test_settle_noBalanceInPool_shouldNotApplyDelta",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_settle_nobalanceinpool_shouldnotapplydelta-c40be032-bca6-49b1",
+      "status": "error"
+    },
+    {
+      "testName": "test_set_twice_returns_correct_value",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_set_twice_returns_correct_value-8fbded35-e48b-411e",
+      "status": "error"
+    },
+    {
+      "testName": "test_sync_multiple_unlocked",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_sync_multiple_unlocked-9db59e73-c1fd-48f7",
+      "status": "error"
+    },
+    {
+      "testName": "test_gas_beforeSwap_skipIfCalledByHook",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_gas_beforeswap_skipifcalledbyhook-230a0eb6-bc97-4aa5",
+      "status": "error"
+    },
+    {
+      "testName": "test_emitsSwapFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_emitsswapfee-63e93229-dde8-46c7",
+      "status": "error"
+    },
+    {
+      "testName": "test_computeSwapStep_zeroForOne_handlesIntermediateInsufficientLiquidityInExactOutputCase",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_computeswapstep_zeroforone_handlesintermediateinsufficientliquidityinexactoutputcase-c8a35bbf-293c-449b",
+      "status": "error"
+    },
+    {
+      "testName": "test_settle_revertsSendingNative_withTokenSynced",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_settle_revertssendingnative_withtokensynced-015c51fc-8aaa-4c56",
+      "status": "error"
+    },
+    {
+      "testName": "test_getTickAtSqrtPrice_isValidMinSqrtPricePlusOne",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_gettickatsqrtprice_isvalidminsqrtpriceplusone-2a5aaf30-d3e4-4255",
+      "status": "error"
+    },
+    {
+      "testName": "test_getSqrtPriceAtTick_isValidMaxTickSubOne",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getsqrtpriceattick_isvalidmaxticksubone-ab6ce250-181c-4770",
+      "status": "error"
+    },
+    {
+      "testName": "testTransferFromWithApproval",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtransferfromwithapproval-5a7605ea-bae1-4192",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromInput_amountInGreaterThanType_uint96_maxAndZeroForOneEqualsTrue",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefrominput_amountingreaterthantype_uint96_maxandzeroforoneequalstrue-8b66c16f-6d2a-4a89",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteFalse_returnsTheTickDirectlyToTheRight2",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltefalse_returnsthetickdirectlytotheright2-0ca99b06-1814-420e",
+      "status": "error"
+    },
+    {
+      "testName": "testTransferFromWithInfiniteApproval",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtransferfromwithinfiniteapproval-ea91c02a-5af6-4509",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteFalse_forEntireWord_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltefalse_forentireword_gas-92226697-5f76-44a9",
+      "status": "error"
+    },
+    {
+      "testName": "test_unlock_cannotBeCalledTwiceByDifferentCallers",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_unlock_cannotbecalledtwicebydifferentcallers-76457989-7a5f-4a30",
+      "status": "error"
+    },
+    {
+      "testName": "test_donate_failsIfLocked",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_donate_failsiflocked-c0088976-b6d5-4e9f",
+      "status": "error"
+    },
+    {
+      "testName": "test_getAmount0Delta_gasCostForAmount0WhereRoundUpIsFalse",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getamount0delta_gascostforamount0whereroundupisfalse-f39e073f-1ac3-4f94",
+      "status": "error"
+    },
+    {
+      "testName": "test_getAmount1Delta_gasCostForAmount1WhereRoundUpIsFalse",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getamount1delta_gascostforamount1whereroundupisfalse-cc0b781b-7c68-4d2e",
+      "status": "error"
+    },
+    {
+      "testName": "test_beforeAfterRemoveLiquidity_calledWithZeroLiquidityDelta",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_beforeafterremoveliquidity_calledwithzeroliquiditydelta-18b8f2df-1a73-42e3",
+      "status": "error"
+    },
+    {
+      "testName": "test_getPositionLiquidity",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getpositionliquidity-4726d547-361d-4f75",
+      "status": "error"
+    },
+    {
+      "testName": "test_updateDynamicLPFee_revertsIfPoolHasStaticFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_updatedynamiclpfee_revertsifpoolhasstaticfee-4b7aaf08-ca1a-43a1",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromInput_returnsInputPriceIfAmountInIsZeroAndZeroForOneEqualsTrue",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefrominput_returnsinputpriceifamountiniszeroandzeroforoneequalstrue-ce915ee9-0d94-4f07",
+      "status": "error"
+    },
+    {
+      "testName": "test_initialize_succeedsWithHook",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_initialize_succeedswithhook-2add14ad-3c66-47de",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromInput_returnsInputPriceIfAmountInIsZeroAndZeroForOneEqualsFalse",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefrominput_returnsinputpriceifamountiniszeroandzeroforoneequalsfalse-9b7c0142-755b-45ef",
+      "status": "error"
+    },
+    {
+      "testName": "test_beforeDonate_invalidReturn",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_beforedonate_invalidreturn-77c0fa73-3588-4104",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_withDynamicFee_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_withdynamicfee_gas-bd88063b-d67c-4871",
+      "status": "error"
+    },
+    {
+      "testName": "test_isInitialized_isNotChangedByAnotherFlipToADifferentTick",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_isinitialized_isnotchangedbyanotherfliptoadifferenttick-d62385f9-a7da-4586",
+      "status": "error"
+    },
+    {
+      "testName": "test_computeSwapStep_exactAmountIn_oneForZero_thatGetsCappedAtPriceTargetIn",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_computeswapstep_exactamountin_oneforzero_thatgetscappedatpricetargetin-7ad82d38-320f-47d3",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_getFeeGrowthInside_subtractsUpperAndLowerTickIfInside",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_getfeegrowthinside_subtractsupperandlowertickifinside-573a8844-22be-47d2",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromOutput_returnsInputPriceIfAmountInIsZeroAndZeroForOneEqualsFalse",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefromoutput_returnsinputpriceifamountiniszeroandzeroforoneequalsfalse-bb929301-22f6-4934",
+      "status": "error"
+    },
+    {
+      "testName": "test_beforeDonate_skipIfCalledByHook",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_beforedonate_skipifcalledbyhook-fdd59e7b-fd2e-40de",
+      "status": "error"
+    },
+    {
+      "testName": "test_unlock_cannotBeCalledTwiceByCaller",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_unlock_cannotbecalledtwicebycaller-ad6b05ed-d687-48ff",
+      "status": "error"
+    },
+    {
+      "testName": "testTransferFromAsOperator",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtransferfromasoperator-b82111da-6b7b-4b44",
+      "status": "error"
+    },
+    {
+      "testName": "test_burnFrom_revertsWithNoApproval",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_burnfrom_revertswithnoapproval-5c2a3a28-eefb-4632",
+      "status": "error"
+    },
+    {
+      "testName": "testTransfer",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtransfer-f82c9364-06cd-4652",
+      "status": "error"
+    },
+    {
+      "testName": "test_validate_doesNotRevertWithNoFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_validate_doesnotrevertwithnofee-128273b8-efbc-47fa",
+      "status": "error"
+    },
+    {
+      "testName": "test_leastSignificantBit_one",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_leastsignificantbit_one-28ce2e0d-8168-4535",
+      "status": "error"
+    },
+    {
+      "testName": "test_computeSwapStep_swapOneForZero_exactOutPartial",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_computeswapstep_swaponeforzero_exactoutpartial-11501d05-bfdd-453a",
+      "status": "error"
+    },
+    {
+      "testName": "test_donate_succeedsForNativeTokensWhenPoolHasLiquidity",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_donate_succeedsfornativetokenswhenpoolhasliquidity-abe64fd5-bb31-463f",
+      "status": "error"
+    },
+    {
+      "testName": "test_updateDynamicLPFee_revertsIfCallerIsntHook",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_updatedynamiclpfee_revertsifcallerisnthook-aa73de13-fb88-4665",
+      "status": "error"
+    },
+    {
+      "testName": "test_bytecodeSize",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_bytecodesize-4068fd6d-f334-4aa7",
+      "status": "error"
+    },
+    {
+      "testName": "test_getTickLiquidity",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_gettickliquidity-4a815742-4e21-4ea5",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_succeedsWithNativeTokensIfInitialized",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_succeedswithnativetokensifinitialized-3e4e9826-7af5-41c7",
+      "status": "error"
+    },
+    {
+      "testName": "test_isValidHookAddress_valid_noFlagsWithDynamicFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_isvalidhookaddress_valid_noflagswithdynamicfee-d4b11e2a-e4bc-4a4f",
+      "status": "error"
+    },
+    {
+      "testName": "test_decrementNonzeroDeltaCount",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_decrementnonzerodeltacount-b8e83a41-ff21-4e53",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_tickSpacingToMaxLiquidityPerTick_returnsTheCorrectValueForMaxTickSpacing",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_tickspacingtomaxliquiditypertick_returnsthecorrectvalueformaxtickspacing-0aa52a12-35d7-419d",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromOutput_revertsIfOutputAmountIsExactlyTheVirtualReservesOfCurrency1",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefromoutput_revertsifoutputamountisexactlythevirtualreservesofcurrency1-97d98834-b448-4ea3",
+      "status": "error"
+    },
+    {
+      "testName": "test_setProtocolFee_succeeds_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_setprotocolfee_succeeds_gas-0076d8cc-5409-42d3",
+      "status": "error"
+    },
+    {
+      "testName": "test_collectProtocolFees_ERC20_returnsAllFeesIf0IsProvidedAsParameter",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_collectprotocolfees_erc20_returnsallfeesif0isprovidedasparameter-1a05e2b5-225b-465f",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromOutput_outputAmountOf0_1Currency0",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefromoutput_outputamountof0_1currency0-e584ecb0-3207-4537",
+      "status": "error"
+    },
+    {
+      "testName": "test_removeLiquidity_withNative_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_removeliquidity_withnative_gas-84cba7a3-5833-41a3",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_getFeeGrowthInside_subtractsUpperTickIfBelow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_getfeegrowthinside_subtractsuppertickifbelow-6912b843-1ff2-47a6",
+      "status": "error"
+    },
+    {
+      "testName": "test_divRoundingUp_maxInput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_divroundingup_maxinput-2a1e2c86-33e7-4d51",
+      "status": "error"
+    },
+    {
+      "testName": "test_addLiquidity_failsIfNotInitialized",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_addliquidity_failsifnotinitialized-a9bb472a-5459-4275",
+      "status": "error"
+    },
+    {
+      "testName": "test_donate_succeedsWithHook",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_donate_succeedswithhook-103b42c8-91e5-401c",
+      "status": "error"
+    },
+    {
+      "testName": "test_getAmount1Delta_gasCostForAmount1WhereRoundUpIsTrue",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getamount1delta_gascostforamount1whereroundupistrue-adbaf641-045b-40f8",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromOutput_revertsIfOutputAmountIsGreaterThanTheVirtualReservesOfCurrency0",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefromoutput_revertsifoutputamountisgreaterthanthevirtualreservesofcurrency0-39766587-e2f3-4a01",
+      "status": "error"
+    },
+    {
+      "testName": "testBurn",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testburn-072eaabd-ca8a-4402",
+      "status": "error"
+    },
+    {
+      "testName": "test_reset_currency",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_reset_currency-c4da20ab-9e66-4610",
+      "status": "error"
+    },
+    {
+      "testName": "test_removeLiquidity_6909",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_removeliquidity_6909-ef7633cf-5d18-48b5",
+      "status": "error"
+    },
+    {
+      "testName": "test_sub_revertsOnUnderflow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_sub_revertsonunderflow-d3ed6d52-e945-433f",
+      "status": "error"
+    },
+    {
+      "testName": "test_getNextSqrtPriceFromInput_anyInputAmountCannotUnderflowThePrice",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getnextsqrtpricefrominput_anyinputamountcannotunderflowtheprice-c16ff94f-aef6-4742",
+      "status": "error"
+    },
+    {
+      "testName": "test_getInitialLpFee_revertsWithNonExactDynamicFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getinitiallpfee_revertswithnonexactdynamicfee-d067d6d1-065f-42ff",
+      "status": "error"
+    },
+    {
+      "testName": "test_mostSignificantBit_revertsWhenZero",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_mostsignificantbit_revertswhenzero-83f4863d-2668-4050",
+      "status": "error"
+    },
+    {
+      "testName": "test_getAmount0Delta_worksForPricesThatOverflow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getamount0delta_worksforpricesthatoverflow-91ff270d-3806-4ee0",
+      "status": "error"
+    },
+    {
+      "testName": "test_isValidHookAddress_zeroAddress_fixedFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_isvalidhookaddress_zeroaddress_fixedfee-1a353c5d-be60-435f",
+      "status": "error"
+    },
+    {
+      "testName": "test_computeSwapStep_swapOneForZero_exactInCapped",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_computeswapstep_swaponeforzero_exactincapped-93d9878f-4c10-4ead",
+      "status": "error"
+    },
+    {
+      "testName": "test_beforeInitialize_skipIfCalledByHook",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_beforeinitialize_skipifcalledbyhook-485fcc19-f2c3-45b0",
+      "status": "error"
+    },
+    {
+      "testName": "test_getPositionInfo",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getpositioninfo-1657abc8-1713-456e",
+      "status": "error"
+    },
+    {
+      "testName": "test_revertTransferFromNotAuthorized",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_reverttransferfromnotauthorized-cac37d99-8e09-41f2",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_mint6909IfNativeOutputNotTaken_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_mint6909ifnativeoutputnottaken_gas-6aab572f-1409-4cd2",
+      "status": "error"
+    },
+    {
+      "testName": "test_mostSignificantBit_maxUint256",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_mostsignificantbit_maxuint256-65ae3451-4fca-4d31",
+      "status": "error"
+    },
+    {
+      "testName": "test_computeSwapStep_exactAmountOut_oneForZero_thatIsFullyReceivedIn",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_computeswapstep_exactamountout_oneforzero_thatisfullyreceivedin-498bcecf-7e3e-41c5",
+      "status": "error"
+    },
+    {
+      "testName": "test_settle_withNoStartingBalance",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_settle_withnostartingbalance-b0d31378-2a77-47f4",
+      "status": "error"
+    },
+    {
+      "testName": "test_dynamicReturnSwapFee_revertIfLPFeeTooLarge",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_dynamicreturnswapfee_revertiflpfeetoolarge-710bf87a-8458-4910",
+      "status": "error"
+    },
+    {
+      "testName": "test_donate_noDelegateCall",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_donate_nodelegatecall-a3fac783-1ee4-42e6",
+      "status": "error"
+    },
+    {
+      "testName": "test_initialize_failsWithIncorrectSelectors",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_initialize_failswithincorrectselectors-0a98ceb3-5caf-4251",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_50PercentLPFee_AmountOut_NoProtocol",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_50percentlpfee_amountout_noprotocol-7062997d-81ac-49a8",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_update_revertsOnOverflowLiquidityGross",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_update_revertsonoverflowliquiditygross-47c5d2f0-29fb-4e55",
+      "status": "error"
+    },
+    {
+      "testName": "test_getTickInfo",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_gettickinfo-7cb3b07a-b67e-4211",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_afterSwapFeeOnUnspecified_exactOutput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_afterswapfeeonunspecified_exactoutput-8500425e-6cf3-4364",
+      "status": "error"
+    },
+    {
+      "testName": "test_getTickAtSqrtPrice_throwsForTooLow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_gettickatsqrtprice_throwsfortoolow-0cee86e2-6a25-4657",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_tickSpacingToMaxLiquidityPerTick_gasCost60TickSpacing",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_tickspacingtomaxliquiditypertick_gascost60tickspacing-d6780ceb-1b0d-412a",
+      "status": "error"
+    },
+    {
+      "testName": "test_collectProtocolFees_locked_revertsWithProtocolFeeCurrencySynced",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_collectprotocolfees_locked_revertswithprotocolfeecurrencysynced-12d3ed1c-88f8-417e",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_helper_oneForZero_exactOutput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_helper_oneforzero_exactoutput-8e821cf7-910f-47aa",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_helper_oneForZero_exactInput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_helper_oneforzero_exactinput-9719d98c-02c2-4fc6",
+      "status": "error"
+    },
+    {
+      "testName": "test_getAmount1Delta_returns0IfPricesAreEqual",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getamount1delta_returns0ifpricesareequal-113dd0ae-ce7b-44a9",
+      "status": "error"
+    },
+    {
+      "testName": "test_toInt128_fromUint256",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_toint128_fromuint256-333746ee-7065-4313",
+      "status": "error"
+    },
+    {
+      "testName": "test_revertMintBalanceOverflow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_revertmintbalanceoverflow-72a0a295-18e7-4637",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_update_assumesAllGrowthHappensBelowTicksLteCurrentTick",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_update_assumesallgrowthhappensbelowticksltecurrenttick-acc1161a-a709-43e7",
+      "status": "error"
+    },
+    {
+      "testName": "test_reservesOfSlot",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_reservesofslot-02920a9a-d41e-47a2",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_beforeSwapNoOpsSwap_exactOutput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_beforeswapnoopsswap_exactoutput-6302063f-52ed-44ac",
+      "status": "error"
+    },
+    {
+      "testName": "test_validate_doesNotRevert",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_validate_doesnotrevert-417d5897-ab2d-452e",
+      "status": "error"
+    },
+    {
+      "testName": "test_swapNativeInput_helper_oneForZero_exactOutput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swapnativeinput_helper_oneforzero_exactoutput-d96b3a7f-9b46-4320",
+      "status": "error"
+    },
+    {
+      "testName": "test_getAmount0Delta_returns0IfPricesAreEqual",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_getamount0delta_returns0ifpricesareequal-72110383-a288-407a",
+      "status": "error"
+    },
+    {
+      "testName": "test_revertTransferFromBalanceOverflow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_reverttransferfrombalanceoverflow-f4728271-753c-43f8",
+      "status": "error"
+    },
+    {
+      "testName": "test_addDelta_throwsForUnderflow",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_adddelta_throwsforunderflow-34f20ede-ea71-4456",
+      "status": "error"
+    },
+    {
+      "testName": "test_delegateCallNoModifier",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_delegatecallnomodifier-892d7966-4f98-48ab",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_update_flipsFromZeroToNonzero",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_update_flipsfromzerotononzero-86ff2bf9-df90-4ca1",
+      "status": "error"
+    },
+    {
+      "testName": "test_externalCallToPrivateMethodWithModifier_succeeds",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_externalcalltoprivatemethodwithmodifier_succeeds-5ee91027-9bf9-4c11",
+      "status": "error"
+    },
+    {
+      "testName": "test_computeSwapStep_notEntireInputAmountTakenAsFee",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_computeswapstep_notentireinputamounttakenasfee-d3e64509-c523-4d3f",
+      "status": "error"
+    },
+    {
+      "testName": "test_computeSwapStep_oneForZero_handlesIntermediateInsufficientLiquidityInExactOutputCase",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_computeswapstep_oneforzero_handlesintermediateinsufficientliquidityinexactoutputcase-0e528992-2dca-40e0",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteFalse_returnsTheNextWordsInitializedTickIfOnTheRightBoundary2",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltefalse_returnsthenextwordsinitializedtickifontherightboundary2-2ae808a0-d9fb-412c",
+      "status": "error"
+    },
+    {
+      "testName": "test_fromId_0ReturnsNative",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_fromid_0returnsnative-3594e913-f051-44b5",
+      "status": "error"
+    },
+    {
+      "testName": "test_swapNativeInput_helper_oneForZero_exactInput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swapnativeinput_helper_oneforzero_exactinput-d2059383-c369-4800",
+      "status": "error"
+    },
+    {
+      "testName": "test_swapNativeInput_helper_nonnative_zeroForOne_exactInput",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swapnativeinput_helper_nonnative_zeroforone_exactinput-fdca5fa6-204c-48bd",
+      "status": "error"
+    },
+    {
+      "testName": "test_addLiquidity_withNative_gas",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_addliquidity_withnative_gas-ccdef44e-1209-4afd",
+      "status": "error"
+    },
+    {
+      "testName": "test_sync_locked_collectProtocolFees_unlocked_revertsWithProtocolFeeCurrencySynced",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_sync_locked_collectprotocolfees_unlocked_revertswithprotocolfeecurrencysynced-b50b7316-9bfb-49cc",
+      "status": "error"
+    },
+    {
+      "testName": "test_clear_reverts_zeroDelta_inputNonzero",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_clear_reverts_zerodelta_inputnonzero-60d648c3-4a7c-4573",
+      "status": "error"
+    },
+    {
+      "testName": "test_swap_100PercentLPFee_AmountIn_NoProtocol",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_swap_100percentlpfee_amountin_noprotocol-7da4cb73-fee8-4409",
+      "status": "error"
+    },
+    {
+      "testName": "test_computeSwapStep_swapZeroForOne_exactOutPartial",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_computeswapstep_swapzeroforone_exactoutpartial-9ee5154a-ac39-4fec",
+      "status": "error"
+    },
+    {
+      "testName": "test_toInt128_fromInt256",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_toint128_fromint256-e973dac1-0bcd-4505",
+      "status": "error"
+    },
+    {
+      "testName": "test_nextInitializedTickWithinOneWord_lteFalse_returnsTickToRightIfAtInitializedTick",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_nextinitializedtickwithinoneword_ltefalse_returnsticktorightifatinitializedtick-9545ce1d-7f33-4ef2",
+      "status": "error"
+    },
+    {
+      "testName": "test_afterInitialize_skipIfCalledByHook",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "test_afterinitialize_skipifcalledbyhook-0ff2e455-506a-4255",
+      "status": "error"
+    },
+    {
+      "testName": "testTick_cross_flipsTheGrowthVariables",
+      "processed": true,
+      "errorMessage": "Failed to create test node: Failed to create test node",
+      "nodeId": "testtick_cross_flipsthegrowthvariables-5de0557f-7cf0-4a49",
+      "status": "error"
+    }
+  ],
+  "logs": [],
+  "project": {
+    "settings": {
+      "notificationChannels": { "slack": { "enabled": false, "webhookUrl": "" } },
+      "projectType": "foundry"
+    },
+    "projectId": "06103038-5dd2-4007-9b66-de4e44a05eb5",
+    "projectName": "bb-ci-cd-v4-core",
+    "gitUrl": "https://github.com/JustUzair/bb-ci-cd-v4-core",
+    "orgName": "JustUzair",
+    "repoName": "bb-ci-cd-v4-core",
+    "deployments": [
+      "5e22daf-15322695012-3-1",
+      "0d5f9c9-15322904504-4-1",
+      "a9937fb-15325500031-5-1",
+      "a8faa58-15325754944-6-1",
+      "6e10ebf-15326227575-7-1",
+      "b816229-15326458636-8-1"
+    ],
+    "status": "live",
+    "createdAt": "2025-05-29T10:29:11.199Z"
+  }
+}
