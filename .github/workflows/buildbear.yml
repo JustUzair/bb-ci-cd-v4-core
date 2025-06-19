@@ -70,7 +70,7 @@ jobs:
           network: |
             [
               {
-                "chainId": 1
+                "chainId": 137
               }
             ]
 
