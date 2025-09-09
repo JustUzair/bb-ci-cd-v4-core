@@ -82,7 +82,7 @@ jobs:
         run: forge test
 
       - name: Run BB Action CI
-        uses: BuildBearLabs/buildbear_x_action@vlatest
+        uses: BuildBearLabs/buildbear_x_action@latest
         with:
           network: |
             [
