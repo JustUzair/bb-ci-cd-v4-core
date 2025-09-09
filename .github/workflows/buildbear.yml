@@ -65,7 +65,7 @@ jobs:
         run: forge test
 
       - name: test_ci
-        uses: BuildBearLabs/buildbear_x_action@v1.7.0
+        uses: BuildBearLabs/buildbear_x_action@v1.7.3
         with:
           network: |
             [
