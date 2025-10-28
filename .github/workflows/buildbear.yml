@@ -174,12 +174,9 @@ jobs:
         with:
           network: |
             [
-              {
-                "chainId": 1,
-              },
-              {
-                "chainId": 1
-              }
+                {
+                    "chainId": 1
+                }
             ]
           deploy-command: "make deploy"
           buildbear-api-key: "${{ secrets.BUILDBEAR_API_KEY }}"
